@@ -26,7 +26,11 @@ public class MainClass {
             String command = in.next();
             switch (command){
                 case "-add":
-                    cardBoard.addClient(work.addClientFromConsole());
+                    try {
+                        cardBoard.addClient(work.addClientFromConsole());
+                    } catch (Exception e) {
+                        System.out.println("Something wrong");
+                    }
                     break;
                 case "-remove":
                     in = new Scanner(System.in);
