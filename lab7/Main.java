@@ -1,4 +1,6 @@
-package com.ForWork;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+package com.ForWork.lab7;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
+
 
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
@@ -37,7 +39,11 @@ public class Main {
             String command = in.next();
             switch (command){
                 case "-add":
-                    cardBoard.addClient(work.addClientFromConsole());
+                    try {
+                        cardBoard.addClient(work.addClientFromConsole());
+                    } catch (Exception e) {
+                        System.out.println("Something wrong");
+                    }
                     break;
                 case "-remove":
                     in = new Scanner(System.in);

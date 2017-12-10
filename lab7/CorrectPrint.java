@@ -1,4 +1,4 @@
-package com.ForWork;
+package com.ForWork.lab7;
 
 /**
  * Class that make special print

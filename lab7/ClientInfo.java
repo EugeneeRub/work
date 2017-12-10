@@ -1,4 +1,6 @@
-package com.ForWork;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+package com.ForWork.lab7;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
+import java.io.Serializable;
 
 /**
  * JavaBean class for work with xml serialization
@@ -6,7 +8,7 @@ package com.ForWork;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!
  * @author Milena Davydova
  * Data 11.11.2017
  * */
-public class ClientInfo extends Human {
+public class ClientInfo extends Human implements Serializable {
     private String mRegNumber;// registration number
     private String mDateOfRegistr;// day of registration
     private Human mDemandsHuman;// demand human
@@ -27,7 +29,7 @@ public class ClientInfo extends Human {
      *
      * @return String - mRegNumber of client
      * */
-    synchronized public String getmRegNumber() {
+    synchronized public String getMRegNumber() {
         return mRegNumber;
     }
 
@@ -36,7 +38,7 @@ public class ClientInfo extends Human {
      *
      * @param mRegNumber - reg number of client
      * */
-    synchronized public void setmRegNumber(String mRegNumber) {
+    synchronized public void setMRegNumber(String mRegNumber) {
         this.mRegNumber = mRegNumber;
     }
 
@@ -45,7 +47,7 @@ public class ClientInfo extends Human {
      *
      * @return String - mDateOfRegistr of client
      * */
-    synchronized public String getmDateOfRegistr() {
+    synchronized public String getMDateOfRegistr() {
         return mDateOfRegistr;
     }
 
@@ -54,7 +56,7 @@ public class ClientInfo extends Human {
      *
      * @param mDateOfRegistr - reg number of client
      * */
-    synchronized public void setmDateOfRegistr(String mDateOfRegistr) {
+    synchronized public void setMDateOfRegistr(String mDateOfRegistr) {
         this.mDateOfRegistr = mDateOfRegistr;
     }
 
@@ -63,7 +65,7 @@ public class ClientInfo extends Human {
      *
      * @return String - mDemandsHuman of client
      * */
-    synchronized public Human getmDemandsHuman() {
+    synchronized public Human getMDemandsHuman() {
         return mDemandsHuman;
     }
 
@@ -72,7 +74,7 @@ public class ClientInfo extends Human {
      *
      * @param mDemands - demands of client
      * */
-    synchronized public void setmDemandsHuman(Human mDemands) {
+    synchronized public void setMDemandsHuman(Human mDemands) {
         this.mDemandsHuman = mDemands;
     }
 }

@@ -1,4 +1,4 @@
-package com.ForWork;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+package com.ForWork.lab7;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
 
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -17,31 +17,35 @@ public class ConsoleWork {
      *
      * @return ClientInfo - object that contain all info about client
      * */
-    public ClientInfo addClientFromConsole() {
-        ClientInfo info = new ClientInfo();
-        Scanner in = new Scanner(System.in);
-        {
-            System.out.print(" ИФО: ");
-            info.setmName(in.nextLine());
-            System.out.print(" День рождния: ");
-            info.setmDateOfBirth(in.next());
-            System.out.print(" Рост: ");
-            info.setmGrowth(in.nextFloat());
-            System.out.print(" Цвет глаз: ");
-            info.setmColorEyes(in.next());
-            System.out.print(" Пол: ");
-            info.setmSex(in.next());
+    public ClientInfo addClientFromConsole() throws Exception {
+        try{
+            ClientInfo info = new ClientInfo();
+            Scanner in = new Scanner(System.in);
+            {
+                System.out.print(" ИФО: ");
+                info.setMName(in.nextLine());
+                System.out.print(" День рождния: ");
+                info.setMDateOfBirth(in.next());
+                System.out.print(" Рост: ");
+                info.setMGrowth(in.nextFloat());
+                System.out.print(" Цвет глаз: ");
+                info.setMColorEyes(in.next());
+                System.out.print(" Пол: ");
+                info.setMSex(in.next());
+            }
+            in = new Scanner(System.in);
+            System.out.print(" Регистрационный номер: ");
+            info.setMRegNumber(in.nextLine());
+            System.out.print(" Дата регистрации: ");
+            info.setMDateOfRegistr(in.next());
+            System.out.println(" Хобби: (Введите -stop для прекращения записи)");
+            info.setHobbi(getHobbiFromConsole());
+            System.out.println(" Требования к кандидату: ");
+            info.setMDemandsHuman(pretendToCandidat());
+            return info;
+        }catch (Exception ex){
+            throw new Exception();
         }
-        in = new Scanner(System.in);
-        System.out.print(" Регистрационный номер: ");
-        info.setmRegNumber(in.nextLine());
-        System.out.print(" Дата регистрации: ");
-        info.setmDateOfRegistr(in.next());
-        System.out.println(" Хобби: (Введите -stop для прекращения записи)");
-        info.setHobbi(getHobbiFromConsole());
-        System.out.println(" Требования к кандидату: ");
-        info.setmDemandsHuman(pretendToCandidat());
-        return info;
     }
 
     /**
@@ -86,20 +90,20 @@ public class ConsoleWork {
         System.out.println("Если нет требований к критерию, ставьте \'-\' ");
         Scanner in = new Scanner(System.in);
         System.out.print(" ИФО: ");
-        human.setmName(in.nextLine());
+        human.setMName(in.nextLine());
         System.out.print(" День рождния: ");
-        human.setmDateOfBirth(in.next());
+        human.setMDateOfBirth(in.next());
 
         System.out.print(" Рост: ");
         String str = in.next();
         if (str.equals("-"))
-            human.setmGrowth(0.0f);
+            human.setMGrowth(0.0f);
         else
-            human.setmGrowth(Float.parseFloat(str));
+            human.setMGrowth(Float.parseFloat(str));
         System.out.print(" Цвет глаз: ");
-        human.setmColorEyes(in.next());
+        human.setMColorEyes(in.next());
         System.out.print(" Пол: ");
-        human.setmSex(in.next());
+        human.setMSex(in.next());
         System.out.println(" Хобби: (Введите -stop для прекращения записи)");
         human.setHobbi(getHobbiFromConsole());
         return human;
@@ -121,7 +125,7 @@ public class ConsoleWork {
 
         if (prisoner.length != 0) {
             for (int i = 0; i < prisoner.length; i++) {
-                System.out.printf("%30s\n","Клиент №"+1);
+                System.out.printf("%30s\n","Клиент №" + (i + 1));
                 printClient(prisoner[i]);
             }
         }else {
@@ -139,28 +143,28 @@ public class ConsoleWork {
     public void printClient(ClientInfo client){
         CorrectPrint print = new CorrectPrint(new int[]{30,22,11,19});
         System.out.printf("%s%40s%13s%16s%13s\n","Имя","День рождения","Рост","Цвет глаз","Пол");
-        print.printLine(client.getmName());
-        print.printLine(client.getmDateOfBirth());
-        print.printLine(client.getmGrowth());
-        print.printLine(client.getmColorEyes());
-        print.printLine(client.getmSex());
+        print.printLine(client.getMName());
+        print.printLine(client.getMDateOfBirth());
+        print.printLine(client.getMGrowth());
+        print.printLine(client.getMColorEyes());
+        print.printLine(client.getMSex());
         System.out.println();
 
         print = new CorrectPrint(new int[]{30});
         System.out.printf("%s%27s\n", "Регистрационный код", "Дата регистрации");
-        print.printLine(client.getmRegNumber());
-        print.printLine(client.getmDateOfRegistr());
+        print.printLine(client.getMRegNumber());
+        print.printLine(client.getMDateOfRegistr());
         printHobbies(client.getHobbi());
 
         print = new CorrectPrint(new int[]{30,22,11,19});
         System.out.printf("%30s\n","Требования к партенёру");
         System.out.printf("%s%40s%13s%16s%13s\n","Имя","День рождения","Рост","Цвет глаз","Пол");
-        print.printLine(client.getmDemandsHuman().getmName());
-        print.printLine(client.getmDemandsHuman().getmDateOfBirth());
-        float f = client.getmDemandsHuman().getmGrowth();
+        print.printLine(client.getMDemandsHuman().getMName());
+        print.printLine(client.getMDemandsHuman().getMDateOfBirth());
+        float f = client.getMDemandsHuman().getMGrowth();
         print.printLine(f == 0.0 ? "-" : f);
-        print.printLine(client.getmDemandsHuman().getmColorEyes());
-        print.printLine(client.getmDemandsHuman().getmSex());
-        printHobbies(client.getmDemandsHuman().getHobbi());
+        print.printLine(client.getMDemandsHuman().getMColorEyes());
+        print.printLine(client.getMDemandsHuman().getMSex());
+        printHobbies(client.getMDemandsHuman().getHobbi());
     }
 }

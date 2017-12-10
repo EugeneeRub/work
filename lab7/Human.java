@@ -1,5 +1,6 @@
-package com.ForWork;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+package com.ForWork.lab7;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!! change to your package !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+import java.io.Serializable;
 import java.util.LinkedList;
 
 /**
@@ -8,7 +9,7 @@ import java.util.LinkedList;
  * @author Milena Davydova
  * Data 11.11.2017
  * */
-public class Human {
+public class Human implements Serializable {
     private String mName;// name of client
     private float mGrowth;// growth of client
     private String mColorEyes;// color eyes
@@ -34,7 +35,7 @@ public class Human {
      *
      * @return String - name of client
      * */
-    synchronized public String getmName() {
+    synchronized public String getMName() {
         return mName;
     }
 
@@ -43,7 +44,7 @@ public class Human {
      *
      * @param mName - name of client
      * */
-    synchronized public void setmName(String mName) {
+    synchronized public void setMName(String mName) {
         this.mName = mName;
     }
 
@@ -52,7 +53,7 @@ public class Human {
      *
      * @return Float - growth of client
      * */
-    synchronized public float getmGrowth() {
+    synchronized public float getMGrowth() {
         return mGrowth;
     }
 
@@ -61,7 +62,7 @@ public class Human {
      *
      * @param mGrowth - growth of client
      * */
-    synchronized public void setmGrowth(float mGrowth) {
+    synchronized public void setMGrowth(float mGrowth) {
         this.mGrowth = mGrowth;
     }
 
@@ -70,7 +71,7 @@ public class Human {
      *
      * @return String - color eyes of client
      * */
-    synchronized public String getmColorEyes() {
+    synchronized public String getMColorEyes() {
         return mColorEyes;
     }
 
@@ -79,7 +80,7 @@ public class Human {
      *
      * @param mColorEyes - color eyes of client
      * */
-    synchronized public void setmColorEyes(String mColorEyes) {
+    synchronized public void setMColorEyes(String mColorEyes) {
         this.mColorEyes = mColorEyes;
     }
 
@@ -88,7 +89,7 @@ public class Human {
      *
      * @return String - sex of client
      * */
-    synchronized public String getmSex() {
+    synchronized public String getMSex() {
         return mSex;
     }
 
@@ -97,7 +98,7 @@ public class Human {
      *
      * @param mSex - sex of client
      * */
-    synchronized public void setmSex(String mSex) {
+    synchronized public void setMSex(String mSex) {
         this.mSex = mSex;
     }
 
@@ -106,7 +107,7 @@ public class Human {
      *
      * @return String - birthday of client
      * */
-    synchronized public String getmDateOfBirth() {
+    synchronized public String getMDateOfBirth() {
         return mDateOfBirth;
     }
 
@@ -115,7 +116,7 @@ public class Human {
      *
      * @param dateOfBirth - birthday of client
      * */
-    synchronized public void setmDateOfBirth(String dateOfBirth) {
+    synchronized public void setMDateOfBirth(String dateOfBirth) {
         this.mDateOfBirth = dateOfBirth;
     }
 
