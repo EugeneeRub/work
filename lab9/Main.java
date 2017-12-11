@@ -137,7 +137,7 @@ public class Main {
                 in = new Scanner(System.in);
                 System.out.println("Input the index:");
                 try {
-                    conteiner.remove(in.nextInt());
+                    conteiner.removeByIndex(in.nextInt());
                 } catch (Exception ex) {
                     System.err.println("Something wrong");
                 }

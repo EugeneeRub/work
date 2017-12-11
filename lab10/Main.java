@@ -222,7 +222,7 @@ public class Main {
         if (conteiner != null) {
             if (!(conteiner.size() == 0)){
                 try {
-                    conteiner.remove((int)(0 + Math.random() * (conteiner.size()-1)));
+                    conteiner.removeByIndex((int)(0 + Math.random() * (conteiner.size()-1)));
                 } catch (Exception e) {
                     System.out.println("Something is happened");
                 }

@@ -133,7 +133,7 @@ public class LinkedConteiner<Type extends ClientInfo> implements Serializable,Co
         return false;
     }
 
-    public boolean remove(int index) {
+    public boolean removeByIndex(int index) {
             if (mSize == 0 || client == null || index < 0 || index > mSize)
                 return false;
 
@@ -143,8 +143,7 @@ public class LinkedConteiner<Type extends ClientInfo> implements Serializable,Co
             mSize--;
 
             if (index == 0){
-                willRemoved = walker;
-                walker = willRemoved.next;
+                client = walker.next;
                 return true;
             }
 
