@@ -28,7 +28,7 @@ import static com.ForWork.lab7.ConsoleWork.getHobbiFromConsole;
  * Data 11.12.2017
  * */
 public class ReadWithRegex {
-    private static final String DATEPATTERN = "((0[1-9]|[1-2][0-9]|3[0-1])(\\.|\\,)(0[1-9]|1[0-2])(\\.|\\,)" + "([0-9]{2,4}))|(-)";
+    private static final String DATEPATTERN = "((0[1-9]|[1-2][0-9]|3[0-1])(\\.|\\,)(0[1-9]|1[0-2])(\\.|\\,)" + "([0-9]{4}))|(-)";
     private static final String COLOREYESPATTERN = "([a-zA-Zа-яА-я]+)|(-)";
     private static final String GROWTHPATTERN = "(\\d+.\\d+)|(-)";
     private static final String NAMEPATTERN = "(\\D+)|(-)";
