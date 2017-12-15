@@ -1,0 +1,404 @@
+{
+  "clients": [
+    {
+      "birthday": "21.12.1999",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Чтобы любила бегать в компании",
+          "что нибудь еще"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "МТ 8466548",
+      "sex": "мужской",
+      "name": "Семен Васльевич",
+      "registrationDate": "11.10.2017",
+      "growth": 175.0,
+      "colorEyes": "голубой"
+    },
+    {
+      "birthday": "22.09.1994",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "что нибудь еще",
+          "Пусть любит бегать везде"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ТП 31654",
+      "sex": "женский",
+      "name": "Василиса Семенова",
+      "registrationDate": "17.08.2016",
+      "growth": 155.0,
+      "colorEyes": "карий"
+    },
+    {
+      "birthday": "19.01.1993",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Хочу чтобы он бегать любил в компании"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 164987",
+      "sex": "ж",
+      "name": "Галина",
+      "registrationDate": "17.10.2000",
+      "growth": 198.0,
+      "colorEyes": "серый"
+    },
+    {
+      "birthday": "19.10.1995",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 987987654",
+      "sex": "М",
+      "name": "Георгий",
+      "registrationDate": "17.10.1222",
+      "growth": 136.0,
+      "colorEyes": "зеленый"
+    },
+    {
+      "birthday": "25.05.2000",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Пусть любит бегать в Киевских парках"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ьт 987654",
+      "sex": "Ж",
+      "name": "Кристина",
+      "registrationDate": "17.10.1555",
+      "growth": 188.0,
+      "colorEyes": "голубой"
+    },
+    {
+      "birthday": "21.12.1999",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Чтобы любила бегать в компании",
+          "что нибудь еще"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "МТ 8466548",
+      "sex": "мужской",
+      "name": "Семен Васльевич",
+      "registrationDate": "11.10.2017",
+      "growth": 125.0,
+      "colorEyes": "синий"
+    },
+    {
+      "birthday": "22.09.1994",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "что нибудь еще",
+          "Пусть любит бегать везде"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ТП 31654",
+      "sex": "женский",
+      "name": "Василиса Семенова",
+      "registrationDate": "17.08.2016",
+      "growth": 171.0,
+      "colorEyes": "зеленый"
+    },
+    {
+      "birthday": "19.01.1993",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Хочу чтобы он бегать любил в компании"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 164987",
+      "sex": "ж",
+      "name": "Галина",
+      "registrationDate": "17.10.2000",
+      "growth": 250.0,
+      "colorEyes": "серый"
+    },
+    {
+      "birthday": "19.10.1995",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 987987654",
+      "sex": "М",
+      "name": "Жёрж",
+      "registrationDate": "17.10.1222",
+      "growth": 142.0,
+      "colorEyes": "Голубой"
+    },
+    {
+      "birthday": "25.05.2000",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Пусть любит бегать в Киевских парках"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ьт 987654",
+      "sex": "Ж",
+      "name": "Христина",
+      "registrationDate": "17.10.1555",
+      "growth": 182.5,
+      "colorEyes": "Карий"
+    },
+    {
+      "birthday": "21.12.1999",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Чтобы любила бегать в компании",
+          "что нибудь еще"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "МТ 8466548",
+      "sex": "мужской",
+      "name": "Семен Васльевич",
+      "registrationDate": "11.10.2017",
+      "growth": 165.0,
+      "colorEyes": "Белый"
+    },
+    {
+      "birthday": "22.09.1994",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "что нибудь еще",
+          "Пусть любит бегать везде"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ТП 31654",
+      "sex": "женский",
+      "name": "Василиса Семенова",
+      "registrationDate": "17.08.2016",
+      "growth": 175.0,
+      "colorEyes": "Карий"
+    },
+    {
+      "birthday": "19.01.1993",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Хочу чтобы он бегать любил в компании"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 164987",
+      "sex": "ж",
+      "name": "Галина",
+      "registrationDate": "17.10.2000",
+      "growth": 220.0,
+      "colorEyes": "Голубой"
+    },
+    {
+      "birthday": "19.10.1995",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 987987654",
+      "sex": "М",
+      "name": "Георгий",
+      "registrationDate": "17.10.1222",
+      "growth": 176.0,
+      "colorEyes": "зеленый"
+    },
+    {
+      "birthday": "25.05.2000",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Пусть любит бегать в Киевских парках"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ьт 987654",
+      "sex": "Ж",
+      "name": "Кристина",
+      "registrationDate": "17.10.1555",
+      "growth": 168.0,
+      "colorEyes": "Зеленый"
+    },
+    {
+      "birthday": "21.12.1999",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Чтобы любила бегать в компании",
+          "что нибудь еще"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "МТ 8466548",
+      "sex": "мужской",
+      "name": "Семен Васльевич",
+      "registrationDate": "11.10.2017",
+      "growth": 144.0,
+      "colorEyes": "синий"
+    },
+    {
+      "birthday": "22.09.1994",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "что нибудь еще",
+          "Пусть любит бегать везде"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ТП 31654",
+      "sex": "женский",
+      "name": "Василиса Семенова",
+      "registrationDate": "17.08.2016",
+      "growth": 255.0,
+      "colorEyes": "зеленый"
+    },
+    {
+      "birthday": "19.01.1993",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Хочу чтобы он бегать любил в компании"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 164987",
+      "sex": "ж",
+      "name": "Галина",
+      "registrationDate": "17.10.2000",
+      "growth": 114.0,
+      "colorEyes": "карий"
+    },
+    {
+      "birthday": "19.10.1995",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ма 987987654",
+      "sex": "М",
+      "name": "Жёрж",
+      "registrationDate": "17.10.1222",
+      "growth": 163.0,
+      "colorEyes": "синий"
+    },
+    {
+      "birthday": "25.05.2000",
+      "pretendHuman": {
+        "birthday": "-",
+        "signs": [
+          "Пусть любит бегать в Киевских парках"
+        ],
+        "sex": "-",
+        "name": "-",
+        "growth": 0.0,
+        "colorEyes": "-"
+      },
+      "signs": [],
+      "registrationNumber": "ьт 987654",
+      "sex": "Ж",
+      "name": "Христина",
+      "registrationDate": "17.10.1555",
+      "growth": 198.0,
+      "colorEyes": "Карий"
+    }
+  ]
+}

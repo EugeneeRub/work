@@ -6,7 +6,7 @@ package com.ForWork.lab7;
  * @author Milena Davydova
  * Data 12.11.2017
  * */
-class CorrectPrint{
+public class CorrectPrint{
     private int arr[] = null;// array of width of objects
     private int index = 0;// index that say that number we must take from arr[]
     private String str = null;// string for get size and decrement lenght
@@ -15,7 +15,7 @@ class CorrectPrint{
     /**
      * Constructor that set array of padding
      * */
-    CorrectPrint(int []array){
+    public CorrectPrint(int []array){
         arr = array;
     }
 

@@ -140,7 +140,7 @@ public class ConsoleWork {
      *
      * @param client object that will be printed
      * */
-    public void printClient(ClientInfo client){
+    public static void printClient(ClientInfo client){
         CorrectPrint print = new CorrectPrint(new int[]{30,22,11,19});
         System.out.printf("%s%40s%13s%16s%13s\n","Имя","День рождения","Рост","Цвет глаз","Пол");
         print.printLine(client.getMName());
