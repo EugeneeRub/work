@@ -240,7 +240,7 @@ public class Main {
      * @param mAutoFlag flag that point us about single-work or auto-work
      * @return String - way to file
      * */
-    private static String getWaySerializeble(boolean mAutoFlag) {
+    public static String getWaySerializeble(boolean mAutoFlag) {
         String str;
         if (!mAutoFlag) {
             Scanner in = new Scanner(System.in);
@@ -259,7 +259,7 @@ public class Main {
      *
      * @return ClientInfo - random object from list
      * */
-    private static ClientInfo getClientRandom() {
+    public static ClientInfo getClientRandom() {
         LinkedConteiner<ClientInfo> list = null;
         try {
             list = deserializeData(getWaySerializeble(true));
